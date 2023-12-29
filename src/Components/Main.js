@@ -24,6 +24,7 @@ const Main = () => {
                     <Route path='/contact' element={<Contact />} />
                     <Route path='/skill' element={<Skill />} />
                     <Route path='/projects' element={<Projects />} />
+                    <Route path='/*' element={<Home />} />
 
                 </Routes>
             </BrowserRouter>
